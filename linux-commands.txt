@@ -13,3 +13,5 @@ cd hotel-del-jojo/bos
 echo "Jojo Man Wol" >bos.txt
 cd ../manager
 mv data-manager.txt manager.txt
+cd ..
+rm -r manager
