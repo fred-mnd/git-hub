@@ -1,0 +1,15 @@
+mkdir hotel-del-jojo
+cd hotel-del-jojo
+mkdir asisten
+cd asisten
+touch asisten.txt
+cd ..
+mkdir manager
+cd manager
+touch data-manager.txt
+cd ../..
+mv bos hotel-del-jojo
+cd hotel-del-jojo/bos
+echo "Jojo Man Wol" >bos.txt
+cd ../manager
+mv data-manager.txt manager.txt
